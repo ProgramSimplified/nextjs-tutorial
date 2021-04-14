@@ -30,7 +30,6 @@ export default function Layout({ children, home }) {
           <>
             <div className="flex">
               <img
-                priority
                 src="/images/profile.gif"
                 className={utilStyles.borderCircle}
                 height={184}
@@ -38,7 +37,6 @@ export default function Layout({ children, home }) {
                 alt={name}
               />
               <img
-                priority
                 src="/images/666.jpeg"
                 className={utilStyles.borderCircle}
                 height={244}
@@ -46,7 +44,6 @@ export default function Layout({ children, home }) {
                 alt={name}
               />
               <img
-                priority
                 src="/images/profile.gif"
                 className={utilStyles.borderCircle}
                 height={184}
@@ -61,7 +58,6 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  priority
                   src="/images/profile.gif"
                   className={utilStyles.borderCircle}
                   height={108}
